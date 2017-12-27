@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>代码生成器</title>
+#parse("modules/sys/header.html")
+</head>
+<body>
+<div id="rrapp">
+	<div class="grid-btn">
+		<div class="form-group col-sm-2">
+			<input type="text" class="form-control" v-model="q.tableName" @keyup.enter="query" placeholder="表名">
+		</div>
+		<button class="layui-btn" id="searchSubmit" @click="query"><i class="layui-icon">&#xe615;</i>查 询</button>
+		#if($shiro.hasPermission("sys:generator:code"))
+		<button class="layui-btn" @click="generator" @click="query"><i class="layui-icon">&#xe635;</i>生成代码</button>
+		#end
+	</div>
+    <table id="jqGrid"></table>
+    <div id="jqGridPager"></div>
+</div>
+
+<script src="${rc.contextPath}/js/gen/generator.js?_${date.systemTime}"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+# Tomcat
+server:
+    tomcat:
+        uri-encoding: UTF-8
+        max-threads: 1000
+        min-spare-threads: 30
+    port: 8083
+    connection-timeout: 5000
+    context-path: /frame-admin
+
+spring:
+    # 环境 dev|test|pro
+    profiles:
+        active: dev
+
+    http:
+        multipart:
+            max-file-size: 100MB
+            max-request-size: 100MB
+            enabled: true
+    jackson:
+        time-zone: GMT+8
+        date-format: yyyy-MM-dd HH:mm:ss
+    resources: # 静态资源的路径
+        static-locations: classpath:/statics/,classpath:/views/
+    redis:
+        database: 0
+        hostName: 127.0.0.1
+        port: 6379
+        password:       # 密码（默认为空）
+        timeout: 6000  # 连接超时时长（毫秒）
+        pool:
+            max-active: 1000  # 连接池最大连接数（使用负值表示没有限制）
+            max-wait: -1      # 连接池最大阻塞等待时间（使用负值表示没有限制）
+            max-idle: 10      # 连接池中的最大空闲连接
+            min-idle: 5       # 连接池中的最小空闲连接
+    #JSP视图解析器
+    # 页面默认前缀目录
+    mvc:
+        view:
+            prefix: /WEB-INF/jsp/
+            suffix: .jsp
+
+# Mybatis配置
+mybatis:
+    mapperLocations: classpath:mapper/**/*.xml
+    configLocation: classpath:mybatis-config.xml
+
+# APP模块
+jwt:
+    # token 加密秘钥
+    secret: 3733b9170b1e4994bddcf1ce62c4c082
+    # token有效时长，7天，单位秒
+    expire: 604800
+    header: token
+
+security:
+    basic:
+        enabled: false
+
+
