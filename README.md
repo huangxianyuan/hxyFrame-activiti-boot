@@ -58,7 +58,7 @@
 
  **捐赠测试**
 - 开源不易，维护更新更不容易，如果项目帮助到了你，给作者一点动力吧，项目才能更加完善强大。请捐赠时请备注捐赠信息！谢谢支持
- ![图片说明](http://osaowv4s0.bkt.clouddn.com/upload/20170829/59da2d5b80464f67a035f529b6eb0dad "图片说明")
+ ![图片说明](http://osaowv4s0.bkt.clouddn.com/upload/20171227/804cbeaebf394964890e67fb7899e469 "图片说明")
 
 
 **项目图片：**
@@ -74,7 +74,6 @@
 ![图片说明](http://osaowv4s0.bkt.clouddn.com/upload/20171214/afc3db6415eb463186358920a7dc0240 "图片说明")
 ![图片说明](http://osaowv4s0.bkt.clouddn.com/upload/20171214/a49f42f188a14b4aac9ac405d26dfa03 "图片说明")
 ![图片说明](http://osaowv4s0.bkt.clouddn.com/upload/20171214/4d2e611ac4694dcea1b3597c3de58b1d "图片说明")
-![图片说明](http://osaowv4s0.bkt.clouddn.com/upload/20171106/a0d3dc5e99294f1aa74425875c04da44 "图片说明")
 
 
 
