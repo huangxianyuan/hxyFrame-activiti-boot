@@ -6,7 +6,7 @@ server:
         min-spare-threads: 30
     port: 8083
     connection-timeout: 5000
-    context-path: /frame-admin
+    context-path: /hxyActiviti
 
 spring:
     # 环境 dev|test|pro
