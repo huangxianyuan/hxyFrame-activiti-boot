@@ -21,5 +21,5 @@
 var ACTIVITI = ACTIVITI || {};
 
 ACTIVITI.CONFIG = {
-	'contextRoot' : '/frame-admin/service'
+	'contextRoot' : '/hxyActiviti/service'
 };
